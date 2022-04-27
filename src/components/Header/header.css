@@ -1,0 +1,258 @@
+
+
+.container-fluid-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    align-items: stretch;
+    height: 10vh;
+   
+  }
+  .container-fluid-1  div{
+  padding:0px;
+  }
+  .box1{
+    flex:1;
+
+  }
+  .box1 .megalogo{
+    margin-left: 20px;
+   
+   color: orange;
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+  }
+  .box2{
+  flex:3.5 ;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2%;
+
+  }
+  .box2 button{
+    background-color: orange;
+    padding:8px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+  }
+  .searchbar{
+ width: 50%;
+ 
+ padding:8px;
+
+ border-radius: 4px solid black;
+
+  }
+  .box3{
+      
+    flex:1;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    }
+   .box3 .headersignup{
+       background-color: green;
+       padding:11px;
+       border: none;
+       border-radius: 4px;
+       color: white;
+       font-weight: bold;
+       cursor: pointer;
+   }
+   .box3 .headerlogin{
+       background-color: orange;
+       padding:11px;
+       margin-left: 10px;
+       border: none;
+       border-radius: 4px;
+       color: white;
+       font-weight: bold;
+       cursor: pointer;
+   }
+   .megafpomap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  width: 50%;
+  height: 50vh;
+    position: relative;
+    margin-top: 0%;
+}
+   @media (min-width: 375px) and (max-width: 768px) {
+    .container-fluid-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      flex-direction: column;
+      height: 30vh;
+     
+    }
+   
+    .box1{
+      flex:1;
+  
+    }
+    .box1 .megalogo{
+      color: orange;
+      font-size: 40px;
+      font-weight: bold;
+      border: none;
+    }
+    .box2{
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+    width: 100%;
+  
+    }
+    .box2 button{
+      background-color: orange;
+      padding:8px;
+      
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+    }
+    .box2 .searchbar{
+   width: 72%;
+   padding: 8px !important;;
+   border-radius: 4px solid black;
+  
+    }
+    .box3{
+        
+      flex:1;
+      display: flex;
+      align-items: center;
+      margin-top: 7%;
+      }
+     .box3 .headersignup{
+         background-color: green;
+         padding:11px;
+         border: none;
+         border-radius: 4px;
+         color: white;
+         font-weight: bold;
+         cursor: pointer;
+     }
+     .box3 .headerlogin{
+         background-color: orange;
+         padding:11px;
+         margin-left: 10px;
+         border: none;
+         border-radius: 4px;
+         color: white;
+         font-weight: bold;
+         cursor: pointer;
+     }
+     .megafpomap{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    width: 50%;
+    height: 50vh;
+      position: relative;
+      margin-top: 5%;
+  }
+   }
+ 
+   @media  (min-width: 768px) and (max-width: 960px){
+    .container-fluid-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      flex-direction: row;
+     
+      height: 10vh;
+     
+    }
+    .container-fluid-1  div{
+    padding:0px;
+    }
+    .box1{
+      flex:1;
+  
+    }
+    .box1 .megalogo{
+      margin-left: 10px;
+     color: orange;
+      font-size: 35px;
+      font-weight: bold;
+      border: none;
+    }
+    .box2{
+    flex:3.5 ;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+  
+    }
+    .box2 button{
+      background-color: orange;
+      padding:8px;
+      margin-left: 10px;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+    }
+    .searchbar{
+   width: 50%;
+   
+   padding:8px;
+  
+   border-radius: 4px solid black;
+  
+    }
+    .box3{
+        
+      flex:1.5;
+      display: flex;
+      align-items: center;
+      margin-top: 2%;
+      }
+     .box3 .headersignup{
+         background-color: green;
+         padding:8px;
+         border: none;
+         border-radius: 4px;
+         color: white;
+         font-weight: bold;
+         cursor: pointer;
+     }
+     .box3 .headerlogin{
+         background-color: orange;
+         padding:8px;
+         margin-left: 10px;
+         border: none;
+         border-radius: 4px;
+         color: white;
+         font-weight: bold;
+         cursor: pointer;
+     }
+     .megafpomap{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    width: 50%;
+    height: 50vh;
+      position: relative;
+      margin-top: 5%;
+  }
+   } 
